@@ -2,7 +2,7 @@ const express = require("express");
 const axios = require("axios");
 
 
-const fun = async ()=>
+const snackInfo = async ()=>
 {
   
   const res = await axios.get("https://api.barcodelookup.com/v2/products?barcode=085239015759&key=7uym2paawshnadqi3jhk0d8mfm6f2h")
@@ -25,4 +25,4 @@ request.get({
 }
  
 
-fun();
+snakcInfo();
