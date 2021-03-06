@@ -25,4 +25,4 @@ request.get({
 }
  
 
-snakcInfo();
+snackInfo();
